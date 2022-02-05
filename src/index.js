@@ -313,4 +313,13 @@ processed = processArg(7);
     // Only change code above this line
   
   }
+// Setup
+function testEqual(val) {
+    if (val == 12) { // Change this line
+      return "Equal";
+    }
+    return "Not Equal";
+  }
+  
+  testEqual(10);  
 
