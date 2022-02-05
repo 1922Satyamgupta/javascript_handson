@@ -82,8 +82,8 @@ let c = 4.6;
 a *= 5;
 b *=3 ;
 c *= 10;
-let a = 48;
-let b = 108;
+let a = 48;Local Scope and Functions
+
 let c = 33;
 
 a /= 12;
@@ -246,6 +246,15 @@ function myLocalScope() {
   // Run and check the console
   // myVar is not defined outside of myLocalScope
   console.log('outside myLocalScope', myVar);
+// Setup
+const outerWear = "T-Shirt";
 
+function myOutfit() {
+  // Only change code below this line
+   let outerWear ="sweater";
+  // Only change code above this line
+  return outerWear;
+}
+ myOutfit();
 
 
