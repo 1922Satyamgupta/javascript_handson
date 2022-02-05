@@ -151,3 +151,5 @@ const myAdverb = "quickly";
 var wordBlanks = "The " + myAdjective + " " + myNoun + " " + myVerb + " " + myAdverb + ".";
 
 // Only change code above this line
+// Only change code below this line
+const myArray = ["hi", 9];
