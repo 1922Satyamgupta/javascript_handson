@@ -134,3 +134,11 @@ const lastLetterOfLastName = lastName[3];
 const lastLetter = lastName[lastName.length - 1];
 
 // Change this line
+// Setup
+const lastName = "Lovelace";
+
+// Only change code below this line
+const secondToLastLetterOfLastName = lastName[6];
+const thirdToLastLetter = secondToLastLetterOfLastName[secondToLastLetterOfLastName.length - 3];
+
+ // Change this line
