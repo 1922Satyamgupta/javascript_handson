@@ -743,7 +743,14 @@ const myDog = {
     result = lookup[val];
     // Only change code above this line
     return result;
-  }  
+  }
+  function checkObj(obj, checkProp) {
+    if (obj.hasOwnProperty(checkProp)) {
+      return obj[checkProp];
+    } else {
+      return "Not Found";
+    }
+  }    
   
   
   
