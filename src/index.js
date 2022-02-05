@@ -154,4 +154,7 @@ var wordBlanks = "The " + myAdjective + " " + myNoun + " " + myVerb + " " + myAd
 // Only change code below this line
 const myArray = ["hi", 9];
 // Only change code below this line
-const myArray = [["Bulls", 23]];
+
+const myArray = [50, 60, 70];
+var myData =myArray[0];
+
