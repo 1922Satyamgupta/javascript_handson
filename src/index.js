@@ -40,3 +40,4 @@ let fact = "is cool!"; // Change this line
 fact = "is awesome!";
 console.log(FCC, fact); // Change this line
 const sum = 10 + 10;
+const difference = 45 - 33;
