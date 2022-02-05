@@ -661,3 +661,13 @@ function abTest(a, b) {
   }
   
   cc(2); cc(3); cc(7); cc('K'); cc('A');  
+  const myDog = {
+    // Only change code below this line
+    name : "john",
+    legs :4,
+    tails :1,
+    friends :["bob", "rock"]
+  
+  
+    // Only change code above this line
+  };  
