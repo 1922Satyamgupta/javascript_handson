@@ -769,7 +769,21 @@ const myDog = {
       release_year: 1976,
       formats: ["CD", "8T", "LP"]
     }
-    ];      
+    ];  
+    const myStorage = {
+        "car": {
+          "inside": {
+            "glove box": "maps",
+            "passenger seat": "crumbs"
+           },
+          "outside": {
+            "trunk": "jack"
+          }
+        }
+      };
+      
+      var gloveBoxContents = myStorage.car.inside["glove box"];
+             
   
   
   
